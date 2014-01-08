@@ -3,14 +3,14 @@ package Entidade;
 public class Pessoa {
 	private String nome;
 	private String endereco;
-	private String cpf;
+	private String sobrenome;
 
-	public String getCpf() {
-		return cpf;
+	public String getSobrenome() {
+		return sobrenome;
 	}
 
-	public void setCpf(String cpf) {
-		this.cpf = cpf;
+	public void setSobrenome(String sobrenome) {
+		this.sobrenome = sobrenome;
 	}
 
 	public String getNome() {
