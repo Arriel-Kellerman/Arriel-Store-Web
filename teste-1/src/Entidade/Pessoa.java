@@ -4,6 +4,15 @@ public class Pessoa {
 	private String nome;
 	private String endereco;
 	private String sobrenome;
+	private String cpf;
+
+	public String getCpf() {
+		return cpf;
+	}
+
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
+	}
 
 	public String getSobrenome() {
 		return sobrenome;
